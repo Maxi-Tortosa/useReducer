@@ -2,12 +2,12 @@ import { TYPES } from '../actions/shoppingActions';
 
 export const shoppingInitialState = {
 	products: [
-		{ id: 1, name: 'Producto1', price: 100 },
-		{ id: 2, name: 'Producto 2', price: 200 },
-		{ id: 3, name: 'Producto 3', price: 300 },
-		{ id: 4, name: 'Producto 4', price: 400 },
-		{ id: 5, name: 'Producto 5', price: 500 },
-		{ id: 6, name: 'Producto 6', price: 600 },
+		{ id: 1, img: './img/imagen.png', name: 'Producto1', price: 100 },
+		{ id: 2, img: './img/imagen.png', name: 'Producto 2', price: 200 },
+		{ id: 3, img: './img/imagen.png', name: 'Producto 3', price: 300 },
+		{ id: 4, img: './img/imagen.png', name: 'Producto 4', price: 400 },
+		{ id: 5, img: './img/imagen.png', name: 'Producto 5', price: 500 },
+		{ id: 6, img: './img/imagen.png', name: 'Producto 6', price: 600 },
 	],
 	cart: [],
 };
