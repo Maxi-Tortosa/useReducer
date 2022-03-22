@@ -1,16 +1,11 @@
 import Contador from './components/Contador';
 import ContadorMejorado from './components/ContadorMejorado';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
 	return (
 		<>
-			<Contador />
-
-			<br />
-			<hr />
-			<br />
-
-			<ContadorMejorado />
+			<ShoppingCart tittle={'Carrito de compras'} />
 		</>
 	);
 }
