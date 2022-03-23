@@ -30,7 +30,6 @@ const ShoppingCart = ({ tittle }) => {
 		dispatch({ type: TYPES.CLEAR_CART });
 	};
 
-	console.log(cart);
 	return (
 		<Container>
 			<div className='header'>
